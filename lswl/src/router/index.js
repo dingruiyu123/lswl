@@ -7,6 +7,8 @@ import Manage from '../component/Manage/Manage '
 import About from '../component/about/about'
 import Shou from '../component/shou/shou'
 import Song from '../component/song/song'
+import Dai from '../component/dai/dai'
+import Yi from '../component/yi/yi'
 import Index from './index.css'
 function router() { 
     return(
@@ -20,6 +22,8 @@ function router() {
                 <Route component={Home}/>
                 <Route component={Shou}/>
                 <Route component={Song}/>
+                <Route component={Dai}/>
+                <Route component={Yi}/>
             </Switch>
         </div>
     )
