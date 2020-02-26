@@ -1,0 +1,16 @@
+.list{
+	width: 200px;
+	margin:auto;
+	height: 30px;
+	text-align: center;
+	border: solid 1px #1E90FF;
+	border-radius: 10px;
+}
+.li{
+	float: left;
+	color: dodgerblue;
+	border-right:solid 1px #1E90FF;
+	display: block;
+	width: 100px;
+	color: #BBBBBB;
+}
