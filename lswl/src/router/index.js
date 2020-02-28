@@ -9,7 +9,11 @@ import Shou from '../component/shou/shou'
 import Song from '../component/song/song'
 import Dai from '../component/dai/dai'
 import Yi from '../component/yi/yi'
+import She from '../component/she/she'
+import Fan from '../component/fan/fan'
 import Index from './index.css'
+
+
 function router() { 
     return(
         <div id="box">
@@ -24,6 +28,8 @@ function router() {
                 <Route component={Song}/>
                 <Route component={Dai}/>
                 <Route component={Yi}/>
+                <Route component={She}/>
+                <Route component={Fan}/>
             </Switch>
         </div>
     )
