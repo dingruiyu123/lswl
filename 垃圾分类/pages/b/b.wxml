@@ -1,0 +1,14 @@
+<!--pages/b/b.wxml-->
+<view class="ceshi">
+  <view class="tops">
+  <text class="cs">随堂测试</text>
+  <text class="shuzi">01<text class="sh">/10</text></text>
+  </view>
+  <view class="but">
+     <text class="su">塑胶手套</text>
+     <text class="laji">湿垃圾</text>
+     <text class="laji">干垃圾</text>
+     <text class="laji">可回收物</text>
+     <text class="laji">有害垃圾</text>
+  </view>
+</view>

@@ -1,0 +1,44 @@
+<!--pages/a/a.wxml-->
+<view class="box">
+	<view class="header">
+		<text class="shang">上海</text>
+		<input type="text" class="input" placeholder-class="placeholder-input"  placeholder="搜索垃圾查看对应分类"></input>
+	</view>
+  <view class="content">
+    <!-- 垃圾 -->
+    <view class="list">
+      <text class="shi">湿垃圾</text>
+      <text class="gan">干垃圾</text>
+      <text class="kehui">可回收物</text>
+      <text class="youhai">有害垃圾</text>
+    </view>
+    <!-- 解析 -->
+    <view class="right">
+      <view class="top">
+        <view class="img">
+            <image src="../../images/a.jpg" class="image"></image>
+        </view>
+        <view class="slj">
+          <text class="text">湿垃圾 是指易腐的生物质废弃物。包括剩菜剩饭、瓜皮果核、花卉绿植、肉类碎骨、过期食品、餐厨垃圾等。</text>
+          <text class="tou">投放要求：</text>
+          <text class="chun">纯流质的食物垃圾，如牛奶等，应该倒进下水口</text>
+          <text class="chun">有包装物的湿垃圾应将包装物取出后分类投放，包装物请投放到对应的可回收物容器或干垃圾容器</text>
+        </view>
+      </view>
+      <view class="bottom">
+        <text class="qing">CoCo的青稞</text>
+        <text class="gu">姑娘果</text>
+        <text class="qing">CoCo的青稞</text>
+        <text class="gu">姑娘果</text>
+        <text class="qing">CoCo的青稞</text>
+        <text class="gu">姑娘果</text>
+        <text class="qing">CoCo的青稞</text>
+        <text class="gu">姑娘果</text>
+        <text class="qing">CoCo的青稞</text>
+        <text class="gu">姑娘果</text>
+        <text class="qing">CoCo的青稞</text>
+        <text class="gu">姑娘果</text>
+      </view>
+    </view>
+  </view>
+</view>
