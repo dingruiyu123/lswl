@@ -14,12 +14,12 @@
 	width: 100px;
 	color: #BBBBBB;
 }
-.lie{
+.list2{
 	height:39px;
 	width: 100%;
 	margin-top:15px;
 }
-.lie .one{
+.list2 .one{
 	border-width: 0px;
     width: 127px;
     height: 39px;
@@ -37,39 +37,40 @@
     text-align: center;
     line-height: 39px;
 }
-.butt{
+.bottom{
 	height: auto;
 	width: 100%;
 }
-.butt .two{
+.two{
 	width: 100%;
 	height: 60px;
 	background: #fff;
 	margin-top: 10px;
 }
-.butt .two .ming{
+.ming{
 	display: block;
 	height: 25px;
 	padding:5px 5px 0 5px;
 }
-.butt .two .lei{
+.lei{
 	font-size: 14px;
 	color: #333;
 	float: left;
 }
-.butt .two .red{
+.red{
 	font-size: 24px;
 	color: #ff0000;
 	float: right;
 }
-.butt .two .xing{
+.xing{
 	float: left;
 	font-size: 14px;
 	color: #333;
 	margin-right: 200px;
 }
-.butt .two .shi{
+.shi{
 	float: right;
 	font-size: 14px;
 	color: #999;
 }
+

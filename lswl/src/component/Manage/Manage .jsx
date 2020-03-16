@@ -1,5 +1,5 @@
 import React,{Component} from 'react'
-import './shou.css'
+import './Manage.css'
 import {NavLink} from 'react-router-dom'
 export default class Shou extends Component{
 constructor(){
@@ -9,13 +9,14 @@ render(){
     return(
         <div>
             <div style={{backgroundColor:'#fff',height:'30px',lineHeight:'30px',padding:'10px 0px'}}>
+                <p className="fh"><NavLink to="/">返回</NavLink></p>
                 <ul className="list">
                    <li className="li"><NavLink to="/manage/shou">收礼</NavLink></li>
                    <li className="lis"><NavLink to="/manage/song">送礼</NavLink></li>
                 </ul>
             </div>
             <ul className="list2">
-                <li className="one">类别</li>
+                <li className="one"><NavLink to="/">类别</NavLink></li>
                 <li className="one">时间</li>
                 <li className="one">金额</li>
             </ul>

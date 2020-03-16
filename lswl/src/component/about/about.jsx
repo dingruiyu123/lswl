@@ -1,5 +1,6 @@
 import React,{Component} from 'react'
 import './about.css'
+import {NavLink} from 'react-router-dom'
 export default class about extends Component{
 constructor(){
     super()
@@ -15,11 +16,11 @@ render(){
                 <span className="qq">调用QQ,微信昵称</span>
             </div>
             <ul className="list5">
-               <li>设置</li>
-               <li>反馈</li>
-               <li>帮助</li>
-               <li>关于</li>
-               <li>分享</li>
+               <li><NavLink to="/about/she">设置</NavLink></li>
+               <li><NavLink to="/about/fan">反馈</NavLink></li>
+               <li><NavLink to="/about/bang">帮助</NavLink></li>
+               <li><NavLink to="/about/guan">关于</NavLink></li>
+               <li><NavLink to="/about/fen">分享</NavLink></li>
             </ul>
         </div>
     )

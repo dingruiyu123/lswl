@@ -1,0 +1,49 @@
+.guanyu{
+	font-size: 24px;
+	color: #333;
+	line-height: 30px;
+	padding-left: 174px;
+}
+.fh{
+	float: left;
+	padding-left: 10px;
+}
+.tb{
+	height: auto;
+	margin-top: 10px;
+	background:#fff;
+	padding:120px 56px;
+}
+.tubiao{
+	height: auto;
+	margin: auto;
+}
+.bule{
+	width: 100px;
+	height: 100px;
+	display: block;
+	background: blue;
+	margin:auto;
+	border-radius: 10px;
+	color: #fff;
+	text-align: center;
+	line-height: 100px;
+	font-size: 16px;
+}
+.liswl{
+	text-align: center;
+	color: #1E90FF;
+	font-size: 18px;
+	margin-top: 10px;
+	font-weight: 700;
+}
+.vi{
+	text-align: center;
+	font-size: 16px;
+	padding-bottom: 30px;
+}
+.nin{
+	text-align: left;
+	font-size: 16px;
+	line-height: 28px;
+}

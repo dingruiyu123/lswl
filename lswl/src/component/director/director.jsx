@@ -9,6 +9,7 @@ render(){
     return(
         <div>
             <div style={{backgroundColor:'#fff',height:'30px',lineHeight:'30px',padding:'10px 0px'}}>
+                <p className="fh"><NavLink to="/">返回</NavLink></p>
                 <ul className="list3">
                    <li className="lit"><NavLink to="/director/dai">待参加</NavLink></li>
                    <li className="litt"><NavLink to="/director/yi">已参加</NavLink></li>

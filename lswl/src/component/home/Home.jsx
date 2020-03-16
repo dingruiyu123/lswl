@@ -1,5 +1,6 @@
 import React,{Component} from 'react'
 import './Home.css'
+import {NavLink} from 'react-router-dom'
 export default class Home extends Component{
 	constructor(){
 		super()
@@ -43,7 +44,7 @@ export default class Home extends Component{
 						<span>用户</span>
 						<span>历史盈亏</span>
 						<span>本月盈亏</span>
-						<span style={{marginRight:'0px',fontWeight:'300',}}>更多</span>
+						<span style={{marginRight:'0px',fontWeight:'300',Color:'#000',}}><NavLink to="/lei">更多</NavLink></span>
 					</div>
 					<div id="home-bottom2">
 						<span>1</span>
